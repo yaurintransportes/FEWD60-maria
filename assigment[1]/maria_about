@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Document</title>
+ </head>
+ <body style="background-color: #FFE;">
+ <h1>Maria N. Colon</h1>
+  <ul>
+  <li><a href="maria_about.html">About Me</a></li>
+  <h2><strong>About Me</strong></h2>
+	
+<div class="employeeBox1">
+    <p>
+            <img src="imagenes/maria.png">
+            I am a New York State Licensed Clinical Social Worker (LCSW).I received my Masters in Social Work from Columbia University in 1988, and completed a four year postgraduate certificate training in psychoanalytic psychotherapy from the Psychoanalytic Institute of the Postgraduate Center for Mental Health in 2001.  I have worked in a number of settings including:  Phoenix House . </p></div>
+
+<div id="footer">
+    <ul id="social">
+      <li><a href="http://www.twitter.com" title="Twitter" target="_blank">twiter</a> </li>
+     
+      <li><a href="http://www.facebook.com" title="Facebook" target="_blank">facebook</a></li>
+      
+      <li><a href="http://www.linkedin.com" title="Linked In" target="_blank">linked</a></li>
+      </ul>

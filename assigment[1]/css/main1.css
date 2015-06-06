@@ -1,0 +1,36 @@
+/*
+html
+	{
+	margin: 0;
+	padding: 0;
+	border:0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-align: left;
+	}
+
+body{
+      h3{
+      	color: red;
+      }  
+     
+    
+     }*/
+
+body{
+	background-color: #d2b48c;
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 1px dotted red;
+	padding: 10px 10px 10px 10px;
+	font-family: sans-serif;
+}
+h3{
+	color: red;
+}
+
+#logo {
+	padding-top: -1px;
+	float: right;
+}
