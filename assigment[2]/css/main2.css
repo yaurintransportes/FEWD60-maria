@@ -1,0 +1,166 @@
+.cf {
+	float: left;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.fc:after {
+    clear: both;
+}
+
+body{
+	background-color: white;
+	margin-left: 12%;
+	margin-right: 20%;
+	padding: 10px 10px 300px 10px;
+	font-family: lato;
+	width: 770px;
+}
+h1{
+	color: red;
+	font-family: lato;
+}
+strong{
+	font-size: 60%;
+	color: silver;
+}
+a {
+	color: red;
+	text-decoration: none;
+}
+h2{
+	color: gray;
+}
+h3{
+	color: silver;
+}
+
+.gray { 
+  color: gray; 
+}
+
+.bold-text {
+  font-weight:bold;
+}
+.container{
+	padding: 1px 0 9px 0;
+	margin:3px 0 0 0;
+	background-color: black;
+}
+#my-nav {
+	width:893px;
+	height:24px;
+	padding: 0;
+	margin:25px 0 0 0;
+	letter-spacing:1px;}
+#nav ul {
+	width: 893px;
+}
+#nav li {
+	font-family: 'lato';
+	text-align: center;
+	float: left;
+	display: block;
+	text-transform:uppercase;
+	margin-left: 2px;}
+#nav li a {
+	color: white;
+	text-decoration: none;
+	padding: 1px 7px 15px 7px;
+}
+#nav li a:hover{
+	color: silver;
+	text-decoration: none;
+	background:#0f69c1;
+	visibility: visible;
+	padding: 26px 7px 15px 7px;
+}
+
+#main{
+	background: white;
+	font-size: small;
+	color: gray;
+	line-height: 1.6em;
+	padding-top: 5px;
+	margin: 0px 10px 10px 10px;
+	width: 420px;
+	float: left;
+}
+p::first-letter{
+	font-size: 500%;
+	font-family: 'lato';
+	float: left;
+	color: silver;
+	margin: 20px 5px 20px 5px;
+}
+#sidebar{
+  float: right;
+  width: 260px;
+  padding: 15px 10px 0 10px;
+  margin: 25px 0 0 30px;
+  font-size: small;
+	color: gray;
+	line-height: 1.6em; 
+  font-family: 'lato';
+}
+ 
+.continue {
+  padding-left: 340px;
+  border-bottom: 1px solid silver;
+}
+
+.more {
+	float: right;
+}
+
+.ad-spacer {
+	border-top: 1px solid silver;
+	margin: 15px 0;
+}
+
+#adcontainer{
+  background-color: black bottom right; 
+  padding: 80px 10px 60px 10px ;
+  background-color: silver;
+}
+
+em{
+	font-size: 80px;
+	color: gray;
+	padding-left: 70px;
+}
+#popularpost li {
+	font-family: 'lato';
+	font-size: small;
+	line-height: 1.6em;
+}	
+
+#footer {
+	clear: both;
+
+}
+#links {
+	list-style-type: none;
+	width: 100%;
+	margin-left: -30px;
+}
+#links li{
+	float: left;
+}
+#links li a{
+	text-decoration: none;
+	padding: 1px 2px 7px 2px;
+}
+#copy{
+	width: 100%;
+	float: left;
+	padding-top: 15px;
+	color:silver; 
+	font-size:9px;
+	margin-left: 15px;
+}
+
+
